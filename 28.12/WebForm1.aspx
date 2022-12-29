@@ -16,6 +16,7 @@
                     <h2>Add a comment</h2>
                     <textarea runat="server" class="form-control" id="textArea" rows="6"></textarea>
                     <asp:Button ID="Button1" class="btn btn-danger" runat="server" Text="Send" OnClick="Button1_Click" />
+                    <asp:Label ID="Label1" runat="server"></asp:Label>
             </ContentTemplate>
         </asp:UpdatePanel>
     </form>
