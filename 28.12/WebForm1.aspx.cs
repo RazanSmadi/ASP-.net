@@ -42,7 +42,7 @@ namespace _28._12
                 Label1.Text += "<div class='card' style='width: 18rem;'>" +
                     " <div class='card-body'>" +
                     $"<h5 class='card-title'>Comment ID : {reader[0]}</h5>" +
-                    $"<p class='card-text'> Comment : {reader[1]}</p> <hr>";
+                    $"<p class='card-text'> Comment : {reader[1]}</p> <hr><br>";
 
 
             }
